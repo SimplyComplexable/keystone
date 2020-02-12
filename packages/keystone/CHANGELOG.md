@@ -1,5 +1,11 @@
 # @keystonejs/keystone
 
+## 5.4.4
+
+### Patch Changes
+
+- [`ae4cf2d1`](https://github.com/keystonejs/keystone/commit/ae4cf2d108768d7ccbd23a409e7170fc92c81316) [#2345](https://github.com/keystonejs/keystone/pull/2345) - Removing unnecessary calls to field type postRead hooks on delete operations. The internal \_delete() functions provide by the DB adapter now return a count of the records removed.
+
 ## 5.4.3
 
 ### Patch Changes
